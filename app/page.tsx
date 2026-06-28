@@ -466,7 +466,7 @@ export default function HomePage() {
                 variants={fadeInUp}
                 className="font-playfair text-4xl md:text-5xl font-bold text-slate-900 tracking-tight text-balance"
               >
-                Pieces worth living with.
+                Pieces worth living.
               </motion.h2>
             </div>
             <motion.p
