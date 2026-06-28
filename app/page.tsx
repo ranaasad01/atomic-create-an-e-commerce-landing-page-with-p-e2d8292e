@@ -661,7 +661,7 @@ export default function HomePage() {
                     <Star key={i} size={14} className="fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <p className="text-slate-700 leading-relaxed text-sm flex-1">
+                <p className="text-slate-700 leading-relaxed text-sm flex-1" style={t.text === "The Arc Floor Lamp transformed my living room completely. The quality is exceptional and the packaging was beautiful. Lumière has become my go-to for everything home." ? { color: "#f64c13" } : undefined}>
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
