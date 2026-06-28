@@ -661,7 +661,7 @@ export default function HomePage() {
                     <Star key={i} size={14} className="fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <p className="text-slate-700 leading-relaxed text-sm flex-1" style={t.text === "I ordered the Linen Cloud Sofa after seeing it in a design magazine. It arrived in perfect condition and is even more beautiful in person. Worth every penny." ? { backgroundColor: "#ca1c1c" } : (t.text === "The Arc Floor Lamp transformed my living room completely. The quality is exceptional and the packaging was beautiful. Lumière has become my go-to for everything home." ? { color: "#f64c13" } : undefined)}>
+                <p className="text-slate-700 leading-relaxed text-sm flex-1" style={t.text === "The Wabi-Sabi Ceramic Vase is exactly what I was looking for. Each piece truly is unique. I ordered three and they all have their own character. Stunning." ? { fontSize: "12px" } : (t.text === "I ordered the Linen Cloud Sofa after seeing it in a design magazine. It arrived in perfect condition and is even more beautiful in person. Worth every penny." ? { backgroundColor: "#ca1c1c" } : (t.text === "The Arc Floor Lamp transformed my living room completely. The quality is exceptional and the packaging was beautiful. Lumière has become my go-to for everything home." ? { color: "#f64c13" } : undefined))}>
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
@@ -703,7 +703,7 @@ export default function HomePage() {
             >
               <div className="rounded-3xl overflow-hidden aspect-[4/5] shadow-[0_4px_8px_rgba(0,0,0,0.06),0_24px_48px_-12px_rgba(0,0,0,0.14)] border border-black/5">
                 <img
-                  src="https://cdn.prod.website-files.com/654d1d96062f475dfcd3001a/65ad934c8e52f37e7deb1e1d_atelier-lumiere-1-1.webp"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/e2d8292e-878c-4a2f-bf61-da540e0ef0ca/3a69ccdf394548d4b3e5966d5b0fbc7d.png"
                   alt="Lumière studio atelier"
                   className="w-full h-full object-cover"
                   onError={(e) => {
